@@ -1,0 +1,57 @@
+.bestsellers {
+	display: flex;
+	flex-direction: column;
+	gap: 70px;
+}
+
+.section-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.section-header__title {
+	font-size: 32px;
+	line-height: 38px;
+	margin: 0;
+}
+
+.section-header__link {
+	font-size: 18px;
+	line-height: 21px;
+	font-weight: 500;
+	padding: 5px;
+	border-bottom: 2px solid #151C22;
+}
+
+.card-collection {
+	display: flex;
+	gap: 30px;
+}
+
+.card {
+	width: 270px;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+
+.card__text {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.card__title {
+	margin: 0;
+	font-size: 18px;
+	line-height: 21px;
+	font-weight: 500;
+}
+
+.card__price {
+	margin: 0;
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 700;
+}

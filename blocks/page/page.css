@@ -1,0 +1,19 @@
+.page {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	color: #151C22;
+	min-width: 1200px;
+}
+
+.page a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.page ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}

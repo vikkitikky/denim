@@ -1,0 +1,9 @@
+.banner__image {
+	width: 430px;
+	height: 517px;
+
+}
+
+.banner__image > img {
+	object-fit: cover;
+}

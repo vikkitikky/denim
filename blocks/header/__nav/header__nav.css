@@ -1,0 +1,26 @@
+.header__nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 67px;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.header__nav li {
+	display: list-item inline;
+}
+
+.header__nav li:not(:last-child) {
+	margin-right: 35px;
+}
+
+.header__site-nav {
+	width: 25%;
+}
+
+.header__user-nav {
+	display: flex;
+	width: 25%;
+	justify-content: end;
+}

@@ -1,0 +1,22 @@
+.footer {
+	background-color: #151C22;
+	color: #FFFFFF;
+	height: 222px;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+	align-items: center;
+	box-sizing: border-box;
+	margin-top: 130px;
+}
+
+.footer__main-nav {
+	display: flex;
+	gap: 35px;
+}
+
+.footer__social {
+	display: flex;
+	gap: 35px;
+}

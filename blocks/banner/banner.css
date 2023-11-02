@@ -1,0 +1,61 @@
+.banner {
+	display: flex;
+	width: 100%;
+	background-color: #F1F2F4;
+	height: 617px;
+	margin-bottom: 20px;
+}
+
+.banner__wrapper {
+	display: flex;
+	gap: 0 50px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.banner__image-column {
+	padding: 50px;;
+	background-image: url(../../images/toLeftBottom.png), url(../../images/toRightTop.png);
+	background-repeat: no-repeat;
+	background-position: 0 0, 100% 100%;
+	background-size: 45%, 45%;
+}
+
+.banner__title {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 21px;
+	margin: 0;
+}
+
+.banner__text {
+	font-family: "Anton", "Arial", sans-serif;
+	font-size: 128px;
+	line-height: 193px;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.banner__button {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 19px;
+	color: #FFFFFF;
+	display: block;
+	background-color: #151C22;
+	text-align: center;
+	vertical-align: center;
+	width: 220px;
+	padding: 27px 0;
+}
+
+.banner__button:link, .banner__button:visited {
+	color: #FFFFFF;
+}
+
+.banner__text-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
